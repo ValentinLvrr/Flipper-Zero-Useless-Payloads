@@ -1,0 +1,15 @@
+REM     Title: Parrot.Live
+REM     Author: ValentinLvrr
+REM     Description: Run "curl parrot.live" in fullscreen
+REM     Target: Windows 10, 11
+
+GUI r
+
+DELAY 500
+
+STRING curl parrot.live
+ENTER
+
+DELAY 500
+
+F11
